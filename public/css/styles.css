@@ -1,0 +1,270 @@
+header  h1 {
+  background: #808080;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  cursor: default;
+}
+
+
+#open_menu {
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+/* #menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .9);
+  color: #fff;
+
+}
+
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+
+#menu li {
+  line-height: 2;
+}
+
+
+#manu a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+body {
+  background: #696969;
+  }
+
+
+
+.boxs {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* width: 25%; */
+  margin-bottom: 10px;
+}
+
+
+.box1 {
+  text-align: center;
+  width: 100px;
+    height: 100px;
+    background: skyblue;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%;  
+}
+.box1:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+.box2 {
+  width: 100px;
+    height: 100px;
+    background: red;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid rgb(87, 13, 13);
+    border-bottom: 4px solid rgb(87, 13, 13);
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%;  
+}
+.box2:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid rgb(245, 108, 108);
+    border-bottom: 4px solid rgb(245, 108, 108);
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%;  
+}
+
+.box3 {
+  width: 100px;
+    height: 100px;
+    background: green;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid rgb(7, 95, 7);
+    border-bottom: 4px solid rgb(7, 95, 7);
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%; 
+}
+.box3:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid rgb(10, 236, 10);
+    border-bottom: 4px solid rgb(10, 236, 10);
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%; 
+}
+
+.box4 {
+  width: 100px;
+    height: 100px;
+    background: gold;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid rgb(156, 135, 17);
+    border-bottom: 4px solid rgb(156, 135, 17);
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%; 
+}
+.box4:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid rgb(252, 245, 207);
+  border-bottom: 4px solid rgb(252, 245, 207);
+  border-left: 4px solid rgb(255, 255, 255);
+  border-top: 4px solid  rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.boxs2 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* width: 25%; */
+  margin-bottom: 80px;
+}
+
+.box5 {
+  text-align: center;
+  width: 100px;
+    height: 100px;
+    background: skyblue;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%;  
+}
+.box5:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.box6 {
+  text-align: center;
+  width: 100px;
+    height: 100px;
+    background: skyblue;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%;  
+}
+.box6:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.box7 {
+  text-align: center;
+  width: 100px;
+    height: 100px;
+    background: skyblue;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%;  
+}
+.box7:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.box8 {
+  text-align: center;
+  width: 100px;
+    height: 100px;
+    background: skyblue;
+    cursor: pointer;
+    transition:  0.3s;
+    opacity: 0.6;
+    margin: 30px;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid silver;
+    border-top: 4px solid  silver;
+    border-radius: 20%;  
+}
+.box8:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5) rotateZ(405deg);
+  border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+footer {
+  background: #808080;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+}

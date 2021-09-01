@@ -1,0 +1,24 @@
+header  h1 {
+  background: #808080;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  cursor: default;
+}
+
+
+body {
+  background: #696969;
+  background-image: url("../../img/topimg.JPG");
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+
+.profile {
+  /* background: #808080; */
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  cursor: default; 
+}
